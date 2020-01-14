@@ -19,17 +19,22 @@
             /*flex-flow: row;*/
         }
         header{
-            background-color:darkblue;
+            /*background-color:darkblue;*/
             width: 100%;
             height: 40px;
             flex-flow: row;
             display: flex;
+            align-items: center;
         }
         header > nav{
-            background-color:cadetblue;
+            /*background-color:cadetblue;*/
             width: 40px;
             height: 40px;
             flex: 1 1 2%;
+            
+        }
+        header nav img{
+            padding: 10px;
         }
         nav >ul{
             background: yellowgreen;
@@ -41,22 +46,26 @@
             height: 32px;
         }
         header > #logo{
-            background-color:brown;
+            /*background-color:brown;*/
             width: 40px;
             height: 40px;
-            flex: 1 1 10%;
+            flex: 1 1 28%;
+        }
+        header #logo img{
+            padding: 9px;
         }
         header > #search_container{
             background-color:purple;
             width: 40px;
             height: 40px;
-            flex: 1 1 70%;
+            flex: 1 1 35%;
+
         }
         header > #option_buttons{
             background-color:yellow;
             width: 40px;
             height: 40px;
-            flex: 1 1 18%;
+            flex: 1 1 35%;
         }
 
         #content{
@@ -96,9 +105,26 @@
         #option_buttons{
             float:right;
         }
-        #search_container{
-            display: inline;
+        #search_container{            
+            flex-flow: row;
+            display: flex;
+            
         }
+        
+        #search_container > input{
+            flex: 1 1 90%;
+        }
+        #search_container  input {
+            width: 90px;
+        }
+        
+        #search_container > img{
+            flex: 1 1 10%;    
+        }
+        #search_container img{
+            width: 10px;
+        }
+
         #video{
             width: 100%;
             height: 480px;
@@ -122,6 +148,13 @@
             height: 120px;
             background-size: cover;
         }
+        /*thumbnail-nav{
+            background-image:src('https://www.techadvicebro.in/wp-content/uploads/2019/06/Best-free-thumbnail-maker-online.png');
+            width:200px;
+            height: 120px;
+            background-size: cover;
+        }*/
+
         .resume_mini{
             padding-left:10px;
         }
@@ -144,18 +177,21 @@
     <div id="container">
         <header>
             <nav>
-              <img src="../" alt="">
+              <img src="icon-menu.svg" alt=""  >
 
             </nav>
 
             <div id="logo">
-                <img id="img_logo">
+                <img src="youtube-logo.png"  alt="">
             </div>
             <div id="search_container">
-                <input type="text">
+                <input type="text">            
+                <img src="icon-search.svg">
             </div>
             <div id="option_buttons">
-                <button>SIGN IN</button>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </header>
         
