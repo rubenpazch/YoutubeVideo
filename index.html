@@ -5,173 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        body {
-            line-height: 1;
-            font-size: 14px;
-            font-family: 'Roboto', 'Arial', sans-serif;
-            color: 
-            #212121;
-        }
-
-        #main{
-            /*flex-flow: row;*/
-        }
-        header{
-            /*background-color:darkblue;*/
-            width: 100%;
-            height: 40px;
-            flex-flow: row;
-            display: flex;
-            align-items: center;
-        }
-        header > nav{
-            /*background-color:cadetblue;*/
-            width: 40px;
-            height: 40px;
-            flex: 1 1 2%;
-            
-        }
-        header nav img{
-            padding: 10px;
-        }
-        nav >ul{
-            background: yellowgreen;
-            list-style: none;
-        }
-        nav li a{
-            background: green;
-            text-decoration: none;
-            height: 32px;
-        }
-        header > #logo{
-            /*background-color:brown;*/
-            width: 40px;
-            height: 40px;
-            flex: 1 1 28%;
-        }
-        header #logo img{
-            padding: 9px;
-        }
-        header > #search_container{
-            background-color:purple;
-            width: 40px;
-            height: 40px;
-            flex: 1 1 35%;
-
-        }
-        header > #option_buttons{
-            background-color:yellow;
-            width: 40px;
-            height: 40px;
-            flex: 1 1 35%;
-        }
-
-        #content{
-            flex-flow: row;
-            display: flex;
-        }
-        #content > article{
-            height: 400px;
-            flex: 1 1 75%;
-        }
-        #content > aside{
-            height: 800px;
-            flex: 1 1 15%;
-        }
-        article{
-            background-color: cornflowerblue;
-            width: 70%;
-            height: auto;
-            /*float:left;*/
-            padding-bottom: 10px;
-        }
-        aside{
-            background-color: coral;
-            width: 30%;
-            height: 180px;
-            /*float:left;*/
-        }
-        #img_logo{
-            src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7fLuUK4r3UzGwE1sLpZrWWzeCMYVDjkmeH2IhZLq43X4wOd55&s';
-            width: 50%;
-            height: 50%;
-        }
-        #logo{
-            /*float:left;*/
-            display: inline;
-        }
-        #option_buttons{
-            float:right;
-        }
-        #search_container{            
-            flex-flow: row;
-            display: flex;
-            
-        }
-        
-        #search_container > input{
-            flex: 1 1 90%;
-        }
-        #search_container  input {
-            width: 90px;
-        }
-        
-        #search_container > img{
-            flex: 1 1 10%;    
-        }
-        #search_container img{
-            width: 10px;
-        }
-
-        #video{
-            width: 100%;
-            height: 480px;
-        }
-
-        .video_mini{
-            flex-flow: row;
-            display: flex;
-            height: 400px;
-        }
-        .video_mini > .img_mini{
-            flex: 1 1 65%;
-        }
-        .video_mini > .resume_mini{
-            flex: 1 1 35%;
-        }
-
-        .thumbnail{
-            background-image:url('https://www.techadvicebro.in/wp-content/uploads/2019/06/Best-free-thumbnail-maker-online.png');
-            width:200px;
-            height: 120px;
-            background-size: cover;
-        }
-        /*thumbnail-nav{
-            background-image:src('https://www.techadvicebro.in/wp-content/uploads/2019/06/Best-free-thumbnail-maker-online.png');
-            width:200px;
-            height: 120px;
-            background-size: cover;
-        }*/
-
-        .resume_mini{
-            padding-left:10px;
-        }
-        .title_section{
-            font-size: 16px;
-            font-weight: bold;
-        }
-        .title_mini{
-            font-size: 12px;
-            font-weight: bold;
-        }
-        .text_mini{
-            color:grey;
-            font-size: 10px;
-        }
-       
-    </style>
+    <title>Document</title> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700" rel="stylesheet">
 </head>
 <body>
     <div id="container">
@@ -206,7 +43,7 @@
                     </iframe>
                 </div>
                 <div id="title_container">
-                    <h3>Título del video</h3>
+                    <h3 class="video_title">How To Embed a Youtube Video</h3>
                     <div>
                         <div id="resume">
                             <span></span>
@@ -227,7 +64,14 @@
                 </div>
             </article>
             <aside>
-                <p class="title_section">Up Next</p>
+                <div id="header_aside">
+                    <div class="title_section"><span>Up Next</span></div>
+                    <div class="text_autoplay text_mini">
+                        <span>AUTOPLAY</span>
+                        <i class="fas fa-toggle-on fa-2x"></i>
+                    </div>
+                </div>
+                <div class="clear"></div>
                 <div class="video_mini">
                     <div class="img_mini">
                        <img
@@ -237,10 +81,64 @@
                         <p class="title_mini">
                             Some video mini
                         </p>
-                        <p class="author_mini">
+                        <p class="author_mini text_mini">
                             Unknown author
                         </p>
-                        <p class="views_mini">
+                        <p class="views_mini text_mini">
+                            8000 views
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <hr id="separador">
+                </div>
+                <div class="video_mini">
+                    <div class="img_mini">
+                       <img
+                       class="thumbnail">
+                    </div>
+                    <div class="resume_mini">
+                        <p class="title_mini">
+                            Some video mini
+                        </p>
+                        <p class="author_mini text_mini">
+                            Unknown author
+                        </p>
+                        <p class="views_mini text_mini">
+                            8000 views
+                        </p>
+                    </div>
+                </div>
+                <div class="video_mini">
+                    <div class="img_mini">
+                       <img
+                       class="thumbnail">
+                    </div>
+                    <div class="resume_mini">
+                        <p class="title_mini">
+                            Some video mini
+                        </p>
+                        <p class="author_mini text_mini">
+                            Unknown author
+                        </p>
+                        <p class="views_mini text_mini">
+                            8000 views
+                        </p>
+                    </div>
+                </div>
+                <div class="video_mini">
+                    <div class="img_mini">
+                       <img
+                       class="thumbnail">
+                    </div>
+                    <div class="resume_mini">
+                        <p class="title_mini">
+                            Some video mini
+                        </p>
+                        <p class="author_mini text_mini">
+                            Unknown author
+                        </p>
+                        <p class="views_mini text_mini">
                             8000 views
                         </p>
                     </div>

@@ -1,0 +1,193 @@
+        body {
+            line-height: 1;
+            font-size: 18px;
+            font-family: 'Roboto', 'Arial', sans-serif;
+            color: 
+            #212121;
+        }
+
+        #main{
+            /*flex-flow: row;*/
+        }
+        header{
+            /*background-color:darkblue;*/
+            width: 100%;
+            height: 40px;
+            flex-flow: row;
+            display: flex;
+            align-items: center;
+        }
+        header > nav{
+            /*background-color:cadetblue;*/
+            width: 40px;
+            height: 40px;
+            flex: 1 1 2%;
+            
+        }
+        header nav img{
+            padding: 10px;
+        }
+        nav >ul{
+            background: yellowgreen;
+            list-style: none;
+        }
+        nav li a{
+            background: green;
+            text-decoration: none;
+            height: 32px;
+        }
+        header > #logo{
+            /*background-color:brown;*/
+            width: 40px;
+            height: 40px;
+            flex: 1 1 28%;
+        }
+        header #logo img{
+            padding: 9px;
+        }
+        header > #search_container{
+            background-color:purple;
+            width: 40px;
+            height: 40px;
+            flex: 1 1 35%;
+
+        }
+        header > #option_buttons{
+            background-color:yellow;
+            width: 40px;
+            height: 40px;
+            flex: 1 1 35%;
+        }
+
+        #content{
+            flex-flow: row;
+            display: flex;
+            margin-top:12px;
+        }
+        #content > article{
+            height: 400px;
+            flex: 1 1 75%;
+        }
+        #content > aside{
+            height: 800px;
+            flex: 1 1 15%;
+        }
+        article{
+            background-color: cornflowerblue;
+            width: 70%;
+            height: auto;
+            /*float:left;*/
+            padding: 32px;
+            padding-top: 0px;
+            
+        }
+        #video_title{
+            font-weight: 400;
+            font-size: 18px;
+        }
+        aside{
+            margin-left: 20px;
+            /*background-color: coral;*/
+            width: 30%;
+            height: 180px;
+            /*float:left;*/
+        }
+        #img_logo{
+            src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7fLuUK4r3UzGwE1sLpZrWWzeCMYVDjkmeH2IhZLq43X4wOd55&s';
+            width: 50%;
+            height: 50%;
+        }
+        #logo{
+            /*float:left;*/
+            display: inline;
+        }
+        #option_buttons{
+            float:right;
+        }
+        #search_container{            
+            flex-flow: row;
+            display: flex;
+            
+        }
+        
+        #search_container > input{
+            flex: 1 1 90%;
+        }
+        #search_container  input {
+            width: 90px;
+        }
+        
+        #search_container > img{
+            flex: 1 1 10%;    
+        }
+        #search_container img{
+            width: 10px;
+        }
+
+        #video{
+            width: 100%;
+            height: 480px;
+        }
+
+        .video_mini{
+            flex-flow: row;
+            display: flex;
+            height: auto;
+            padding: 7px;
+        }
+        .video_mini > .img_mini{
+            flex: 1 1 45%;
+        }
+        .video_mini > .resume_mini{
+            flex: 1 1 55%;
+        }
+
+        .thumbnail{
+            background-image:url('https://www.techadvicebro.in/wp-content/uploads/2019/06/Best-free-thumbnail-maker-online.png');
+            width:200px;
+            height: 120px;
+            background-size: cover;
+        }
+        /*thumbnail-nav{
+            background-image:src('https://www.techadvicebro.in/wp-content/uploads/2019/06/Best-free-thumbnail-maker-online.png');
+            width:200px;
+            height: 120px;
+            background-size: cover;
+        }*/
+
+        .clear{
+            clear: both;
+        }
+
+        .resume_mini{
+            padding-left:3px;
+        }
+        .title_section{
+            font-size: 16px;
+            font-weight: bold;
+            padding: 7px 4px;
+            margin: 0px 4px;
+            float: left;
+        }
+        #text_autoplay{
+            float: right;
+            color: #9e9898;
+            font-size: 6px;
+        }
+
+        .title_mini{
+            font-size: 14px;
+            font-weight: bold;
+            display: inline;
+        }
+       
+        .text_mini{
+            color:grey;
+            font-size: 12px;
+        }
+
+        #separador{
+            border: 1px solid #9e9898;
+        }
+
+       
