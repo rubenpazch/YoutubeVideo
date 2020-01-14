@@ -7,6 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        body {
+            line-height: 1;
+            font-size: 14px;
+            font-family: 'Roboto', 'Arial', sans-serif;
+            color: 
+            #212121;
+        }
+
         #main{
             /*flex-flow: row;*/
         }
@@ -51,11 +59,24 @@
             flex: 1 1 18%;
         }
 
+        #content{
+            flex-flow: row;
+            display: flex;
+        }
+        #content > article{
+            height: 400px;
+            flex: 1 1 75%;
+        }
+        #content > aside{
+            height: 800px;
+            flex: 1 1 15%;
+        }
         article{
             background-color: cornflowerblue;
             width: 70%;
-            height: 600px;
+            height: auto;
             /*float:left;*/
+            padding-bottom: 10px;
         }
         aside{
             background-color: coral;
@@ -78,6 +99,45 @@
         #search_container{
             display: inline;
         }
+        #video{
+            width: 100%;
+            height: 480px;
+        }
+
+        .video_mini{
+            flex-flow: row;
+            display: flex;
+            height: 400px;
+        }
+        .video_mini > .img_mini{
+            flex: 1 1 65%;
+        }
+        .video_mini > .resume_mini{
+            flex: 1 1 35%;
+        }
+
+        .thumbnail{
+            background-image:url('https://www.techadvicebro.in/wp-content/uploads/2019/06/Best-free-thumbnail-maker-online.png');
+            width:200px;
+            height: 120px;
+            background-size: cover;
+        }
+        .resume_mini{
+            padding-left:10px;
+        }
+        .title_section{
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .title_mini{
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .text_mini{
+            color:grey;
+            font-size: 10px;
+        }
+       
     </style>
 </head>
 <body>
@@ -99,13 +159,59 @@
             </div>
         </header>
         
-       <!-- <article>
-        </article>
-        <aside>
-    
-        </aside>
-        -->
+        <div id="content"> 
+            <article>
+                <div>
+                    <iframe id="video"
+                        src="https://www.youtube.com/embed/ZnuwB35GYMY" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div id="title_container">
+                    <h3>Título del video</h3>
+                    <div>
+                        <div id="resume">
+                            <span></span>
+                        </div>
+                        <div id="video_options">
 
+                        </div>
+                    </div>
+                </div>
+                <div id="description_container">
+                    <div id="profile_image"></div>
+                    <div id="about">
+                      <span>Some description</span>  
+                    </div>
+                </div>
+                <div id="comments_container">
+
+                </div>
+            </article>
+            <aside>
+                <p class="title_section">Up Next</p>
+                <div class="video_mini">
+                    <div class="img_mini">
+                       <img
+                       class="thumbnail">
+                    </div>
+                    <div class="resume_mini">
+                        <p class="title_mini">
+                            Some video mini
+                        </p>
+                        <p class="author_mini">
+                            Unknown author
+                        </p>
+                        <p class="views_mini">
+                            8000 views
+                        </p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    
     </div>
 
  
