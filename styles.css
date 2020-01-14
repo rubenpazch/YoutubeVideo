@@ -9,16 +9,18 @@
         #main{
             /*flex-flow: row;*/
         }
+        
+        /*  start header style */
         header{
             /*background-color:darkblue;*/
             width: 100%;
-            height: 40px;
+            height: 30px;
             flex-flow: row;
             display: flex;
             align-items: center;
         }
-        header > nav{
-            /*background-color:cadetblue;*/
+        
+        header > nav{        
             width: 40px;
             height: 40px;
             flex: 1 1 2%;
@@ -27,17 +29,7 @@
         header nav img{
             padding: 10px;
         }
-        nav >ul{
-            background: yellowgreen;
-            list-style: none;
-        }
-        nav li a{
-            background: green;
-            text-decoration: none;
-            height: 32px;
-        }
         header > #logo{
-            /*background-color:brown;*/
             width: 40px;
             height: 40px;
             flex: 1 1 28%;
@@ -46,18 +38,74 @@
             padding: 9px;
         }
         header > #search_container{
-            background-color:purple;
-            width: 40px;
-            height: 40px;
+            
+           /* width: 40px;
+            height: 40px;*/
             flex: 1 1 35%;
-
         }
         header > #option_buttons{
-            background-color:yellow;
+            /*background-color:yellow;*/
             width: 40px;
             height: 40px;
             flex: 1 1 35%;
         }
+ 
+        #logo{
+            /*float:left;*/
+            display: inline;
+        }
+        #option_buttons{
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items: center;
+        }
+        #option_buttons img{
+            width: 25px;
+        }
+        #option_buttons > div{
+            margin-right: 1em;
+        }
+        #profile{
+            border-radius: 30px;
+        }
+
+        #search_container{            
+            flex-flow: row;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+        
+        #search_container > input{
+            flex: 1 1 90%;
+            
+        }
+        #search_container  input {
+            /*width: 90px;*/
+            height: 1em;
+        }
+        
+        #search_container > img{
+            flex: 1 1 10%;    
+        }
+        #search_container img{
+            /*width: 10px;*/
+            height: 2em;
+        }
+        #profile{
+            background-image: url(trump.png);
+            background-repeat: no-repeat;
+            background-size: 34px;
+            background-position: 100px 0px 0px 15px;
+            background-position-x: center;
+            background-position-y: center;
+        }
+
+        /*  end header style */
+
+
 
         #content{
             flex-flow: row;
@@ -92,38 +140,7 @@
             height: 180px;
             /*float:left;*/
         }
-        #img_logo{
-            src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7fLuUK4r3UzGwE1sLpZrWWzeCMYVDjkmeH2IhZLq43X4wOd55&s';
-            width: 50%;
-            height: 50%;
-        }
-        #logo{
-            /*float:left;*/
-            display: inline;
-        }
-        #option_buttons{
-            float:right;
-        }
-        #search_container{            
-            flex-flow: row;
-            display: flex;
-            
-        }
-        
-        #search_container > input{
-            flex: 1 1 90%;
-        }
-        #search_container  input {
-            width: 90px;
-        }
-        
-        #search_container > img{
-            flex: 1 1 10%;    
-        }
-        #search_container img{
-            width: 10px;
-        }
-
+       
         #video{
             width: 100%;
             height: 480px;
