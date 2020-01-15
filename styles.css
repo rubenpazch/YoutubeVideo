@@ -18,6 +18,8 @@
             flex-flow: row;
             display: flex;
             align-items: center;
+            padding-bottom: 25px;
+            padding-top: 5px;
         }
         
         header > nav{        
@@ -79,21 +81,37 @@
         }
         
         #search_container > input{
-            flex: 1 1 90%;
-            
+            flex: 1 1 90%;            
+            width: 35em;
+            border: alicebluenone;
+            border: 1px 1px 1px 1px solid rgba(0, 0, 0, 0.233);
+            text-indent: 0.5em;
+            border-left: 1px solid rgba(0, 0, 0, 0.233);
+            border-top: 1px solid rgba(0, 0, 0, 0.233);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+            border-right: 1px solid rgba(0, 0, 0, 0.233);
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+            text-indent: 1.5em;
+            line-height: 25px;
         }
-        #search_container  input {
-            /*width: 90px;*/
-            height: 1em;
-        }
+      
         
         #search_container > img{
-            flex: 1 1 10%;    
-        }
-        #search_container img{
-            /*width: 10px;*/
+            flex: 1 1 10%;            
             height: 2em;
+            cursor: pointer;
+            width: 10px;
+            height: 27px;
+            border-top: 1px solid rgba(0, 0, 0, 0.233);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+            border-right: 1px solid rgba(0, 0, 0, 0.233);
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            line-height: 25px;
+            background-color: rgb(248, 248, 248);
         }
+        
         #profile{
             background-image: url(trump.png);
             background-repeat: no-repeat;
@@ -110,25 +128,97 @@
         #content{
             flex-flow: row;
             display: flex;
-            margin-top:12px;
+            /*margin-top:12px;*/
+            background-color:rgb(249,249,249)
         }
-        #content > article{
+        #content > #video-container{
+            background-color: aqua;
             height: 400px;
-            flex: 1 1 75%;
+            flex: 1 1 60%;
         }
         #content > aside{
+            background-color: blue;
             height: 800px;
-            flex: 1 1 15%;
+            flex: 1 1 40%;
         }
-        article{
-            background-color: cornflowerblue;
-            width: 70%;
-            height: auto;
+        aside{
+            /*margin-left: 20px;*/
+            /*background-color: coral;*/
+            width: 30%;
+            /*height: 180px;*/
             /*float:left;*/
-            padding: 32px;
-            padding-top: 0px;
-            
+            display: flex;
+            flex-flow: row;
+            align-items: flex-start;
+            justify-content: flex-start;
         }
+        #video-container{
+            background-color: cornflowerblue;
+         /*   width: 70%;*/
+            /*height: auto;*/
+            /*float:left;*/
+            /*padding: 32px;*/
+            /*padding-top: 0px;*/
+            display: flex;
+            flex-flow: row;
+            align-items: flex-start;
+            justify-content: flex-end;
+
+        }
+        #video-container > #frame-video{
+            background-color: rgb(167, 10, 10);
+            width: 900px;
+            height: 300px;
+        }
+        aside > #description-video{
+            background-color: rgba(125, 125, 129, 0.5);
+            width: 450px;
+            height: 900px;
+        }
+
+        #comments-container{
+            display: flex;
+            flex-flow: row;
+            background-color: yellow;
+            width: 100%;
+            /*justify-content: space-around;*/
+        }
+        
+        #comments-container > #comments-left{
+            background-color: royalblue;
+            height: 400px;
+            flex: 1 1 60%;   
+            width: 800px;
+        }
+        #comments-container > #comments-right{
+            background-color: silver;
+            height: 800px;
+            flex: 1 1 40%;
+            width: 300px;
+        }
+
+        #comments-left{
+            display: flex;
+            flex-flow: column;
+            align-items: flex-end;    
+        }
+
+        #comments-left > #comments-counter{
+            height: 150px;
+            width: 950px;
+            background-color: violet;
+        }    
+        #comments-left > #comments-input{
+            height: 150px;
+            width: 950px;
+            background-color: goldenrod;
+        }    
+        #comments-left > #comments-details{
+            height: 750px;
+            width: 950px;
+            background-color: purple;
+        }    
+
         #video_title{
             font-weight: 400;
             font-size: 18px;
@@ -168,13 +258,7 @@
             margin-left: 60px;
         }
 
-        aside{
-            margin-left: 20px;
-            /*background-color: coral;*/
-            width: 30%;
-            height: 180px;
-            /*float:left;*/
-        }
+       
        
         #video{
             width: 100%;
