@@ -4,11 +4,11 @@
             font-family: 'Roboto', 'Arial', sans-serif;
             color: 
             #212121;
+            margin: 0;
+            padding: 0;
+            
         }
-
-        #main{
-            /*flex-flow: row;*/
-        }
+        
         
         /*  start header style */
         header{
@@ -130,8 +130,9 @@
             flex-flow: row;
             flex-wrap: wrap;
             /*margin-top:12px;*/
-            background-color:rgb(249,249,249)
+            background-color:rgb(116, 24, 24)
         }
+
 
         /*
         #content > #video-container{
@@ -154,21 +155,25 @@
             width: 69%;
             height: auto;
             /*float:left;*/
-            padding: 32px;
-            padding-top: 0px;
+            /*padding: 32px;*/
+            /*padding-top: 0px;*/
         }
 
+        
+
         #video-container > #frame-video{
-            background-color: rgb(167, 10, 10);
-            /*width: 900px;*/
-            height: 480px;
+            background-color: rgb(167, 10, 10);                        
         }
+        #video-container > #title-video-container{
+            background-color: rgb(5, 55, 119);                        
+        }
+
 
         aside{
             /*margin-left: 20px;*/
-            /*background-color: coral;*/
-            width: 25%;
-            height: auto;
+            background-color: coral;
+            width: 31%;
+            height: 0px;
             /*float:left;*/
             /*display: flex;*/
             /*flex-flow: row;
@@ -176,18 +181,21 @@
             justify-content: flex-start;*/
         }
 
-        aside > #description-video{
+       
+
+        aside > #suggestions-videos{
             background-color: rgba(41, 172, 48, 0.795);
-            width: 450px;
-            height: 800px;
+            width: 90%;
+            height: 900px;
         }
         
         #comments-container{
-            display: flex;
-            flex-flow: row;
+          /*  display: flex;
+            flex-flow: row;*/
             background-color: yellow;
             width: 69%;
-            padding: 0px 32px;
+            height: 500px;
+            /*padding: 0px 32px;*/
             /*justify-content: space-around;*/
         }
         
@@ -254,9 +262,9 @@
             border: none;
         }
 
-        #description_container{
+       /* #description_container{
             margin-left: 60px;
-        }
+        }*/
 
        
        
@@ -335,3 +343,93 @@
         }
 
        
+
+        @media all and (max-width:640px){
+
+            #content
+            {
+                flex-flow:column;
+
+            }
+          
+            #video-container{
+             width: 100%;
+            }
+
+            aside{            
+             height: auto;
+             width: 100%;
+            }
+            #comments-container{
+             width: 100%;
+            }
+
+            #description-video{
+                width: 100%;
+            }
+
+            /*#frame-video{                
+                width: 100%;
+            }*/
+
+         }
+
+         #father{
+            background-color: blue;
+            display: flex;
+            flex-flow: row;
+            flex-wrap: wrap;
+        }
+        #childone{
+            background-color: yellow;
+            width: 69%;
+            height: 500px;
+        }
+        #childtwo{
+            background-color: purple;
+            width: 31%;
+            height: 0px;
+            
+            
+        }
+        #container{
+            width: 90%;
+            height: 900px;
+            background-color: burlywood;
+        }
+        #childthree{
+            background-color: green;
+            width: 69%;
+            height: 500px;
+        }
+        @media all and (max-width:640px){
+
+           #father
+           {
+               flex-flow:column;
+
+           }
+           #container{
+            width: 100%;
+           }
+           #childone{
+            width: 100%;
+           }
+           #childtwo{            
+            height: auto;
+            width: 100%;
+           }
+           #childthree{
+            width: 100%;
+           }
+        }
+
+
+
+
+
+
+
+
+
+
