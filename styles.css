@@ -126,11 +126,14 @@
 
 
         #content{
+            display:flex;
             flex-flow: row;
-            display: flex;
+            flex-wrap: wrap;
             /*margin-top:12px;*/
             background-color:rgb(249,249,249)
         }
+
+        /*
         #content > #video-container{
             background-color: aqua;
             height: 400px;
@@ -140,82 +143,79 @@
             background-color: blue;
             height: 800px;
             flex: 1 1 40%;
+        }*/
+
+        #video-container{
+            background-color: cornflowerblue;
+            /*display: flex;
+            flex-flow: row;
+            align-items: flex-start;
+            justify-content: flex-end;*/
+            width: 69%;
+            height: auto;
+            /*float:left;*/
+            padding: 32px;
+            padding-top: 0px;
         }
+
+        #video-container > #frame-video{
+            background-color: rgb(167, 10, 10);
+            /*width: 900px;*/
+            height: 480px;
+        }
+
         aside{
             /*margin-left: 20px;*/
             /*background-color: coral;*/
-            width: 30%;
-            /*height: 180px;*/
+            width: 25%;
+            height: auto;
             /*float:left;*/
-            display: flex;
-            flex-flow: row;
+            /*display: flex;*/
+            /*flex-flow: row;
             align-items: flex-start;
-            justify-content: flex-start;
+            justify-content: flex-start;*/
         }
-        #video-container{
-            background-color: cornflowerblue;
-         /*   width: 70%;*/
-            /*height: auto;*/
-            /*float:left;*/
-            /*padding: 32px;*/
-            /*padding-top: 0px;*/
-            display: flex;
-            flex-flow: row;
-            align-items: flex-start;
-            justify-content: flex-end;
 
-        }
-        #video-container > #frame-video{
-            background-color: rgb(167, 10, 10);
-            width: 900px;
-            height: 300px;
-        }
         aside > #description-video{
-            background-color: rgba(125, 125, 129, 0.5);
+            background-color: rgba(41, 172, 48, 0.795);
             width: 450px;
-            height: 900px;
+            height: 800px;
         }
-
+        
         #comments-container{
             display: flex;
             flex-flow: row;
             background-color: yellow;
-            width: 100%;
+            width: 69%;
+            padding: 0px 32px;
             /*justify-content: space-around;*/
         }
         
         #comments-container > #comments-left{
             background-color: royalblue;
             height: 400px;
-            flex: 1 1 60%;   
-            width: 800px;
-        }
-        #comments-container > #comments-right{
-            background-color: silver;
-            height: 800px;
-            flex: 1 1 40%;
-            width: 300px;
+            flex: 1 1 100%; 
         }
 
         #comments-left{
             display: flex;
             flex-flow: column;
-            align-items: flex-end;    
+            /*align-items: flex-end;*/    
         }
 
         #comments-left > #comments-counter{
             height: 150px;
-            width: 950px;
+            width: 100%;
             background-color: violet;
         }    
         #comments-left > #comments-input{
             height: 150px;
-            width: 950px;
+            width: 100%;
             background-color: goldenrod;
         }    
         #comments-left > #comments-details{
             height: 750px;
-            width: 950px;
+            width: 100%;
             background-color: purple;
         }    
 
