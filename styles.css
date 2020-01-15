@@ -130,11 +130,11 @@
             flex-flow: row;
             flex-wrap: wrap;
             /*margin-top:12px;*/
-            background-color:rgb(116, 24, 24)
+           /* background-color:rgb(116, 24, 24)*/
         }
 
         #video-container{
-            background-color: rgb(206, 106, 39);
+            /*background-color: rgb(206, 106, 39);*/
             /*display: flex;
             flex-flow: row;
             align-items: flex-start;
@@ -147,7 +147,16 @@
         }
 
         #video-container > #frame-video{
-            background-color: rgb(167, 10, 10);                        
+            /*background-color: rgb(167, 10, 10);*/                        
+            padding: 0px 20px 20px 60px;
+        }
+        #frame-video embed{
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            
         }
 
         #video-container > #title-video-container{
@@ -191,9 +200,11 @@
        
 
         aside > #suggestions-videos{
-            background-color: rgba(41, 172, 48, 0.795);
-            width: 100%;
+           /* background-color: rgba(41, 172, 48, 0.795);*/
+            width: 65%;
         }
+
+        
         
         #comments-container{
           /*  display: flex;
@@ -268,6 +279,22 @@
             flex-direction: row;
             justify-content: space-between;
         }
+        #header_aside{
+            background-color: aqua;
+        }
+        .title_section{
+            font-size: 16px;
+            font-weight: bold;
+            padding: 7px 4px;
+            margin: 0px 4px;
+            float: left;
+        }
+        .text_mini{
+            color:grey;
+            font-size: 12px;
+        }
+
+        
         #header_container{
             margin: 12px 0px;
         }
@@ -297,6 +324,7 @@
         }
         .video_mini > .resume_mini{
             flex: 1 1 55%;
+            padding-left: 5px;
         }
 
         .thumbnail{
@@ -312,9 +340,9 @@
             background-size: cover;
         }*/
 
-        .clear{
+        /*.clear{
             clear: both;
-        }
+        }*/
         .text_grey{
             color:grey;
         }
@@ -322,13 +350,7 @@
         .resume_mini{
             padding-left:3px;
         }
-        .title_section{
-            font-size: 16px;
-            font-weight: bold;
-            padding: 7px 4px;
-            margin: 0px 4px;
-            float: left;
-        }
+        
         .text_autoplay{
             color: #9e9898;
             font-size: 12px;
@@ -341,10 +363,7 @@
             display: inline;
         }
        
-        .text_mini{
-            color:grey;
-            font-size: 12px;
-        }
+        
 
         .separador{
             border-top: 1px solid rgba(125, 125, 129, 0.5);
