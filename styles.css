@@ -244,6 +244,37 @@
             background-color: purple;
         }    
 
+        #comments-counter{
+            display: flex;
+            flex-flow: row;
+        }
+
+        #count-comments{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+        }
+
+        #sort-comments{
+            padding-left: 32px;
+        }
+
+        #comments-input{
+            display: flex;
+            flex-flow: row;
+        }
+        .input-comment-container{
+            width:100%;
+            margin-left: 12px;
+        }
+        .input-comment{
+            border:none;
+            border-bottom: 1px solid rgba(125, 125, 129, 0.5);
+            padding: 8px 0px;
+            top:0px;
+            width: 100%;
+        }
+
         .title-video{
             font-weight: 400;
             font-size: 24px;
@@ -377,6 +408,19 @@
        .circle-img{
            border-radius:50%;
        }
+
+       #video-options{
+            flex-flow: row;
+            display: flex;
+    }
+    #resume{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .opt-vid-social{
+        padding-right: 10px;
+    }
+
 
         @media all and (max-width:1015px){
 
