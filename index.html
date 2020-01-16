@@ -1,46 +1,46 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title> 
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700" rel="stylesheet">
 </head>
+
 <body>
     <div id="main-container">
         <header>
             <nav>
-              <img src="icon-menu.svg" alt=""  >
+                <img src="icon-menu.svg" alt="">
 
             </nav>
 
             <div id="logo">
-                <img src="youtube-logo.png"  alt="">
+                <img src="youtube-logo.png" alt="">
             </div>
             <div id="search_container">
-                <input type="text">            
+                <input type="text">
                 <img src="icon-search.svg">
             </div>
             <div id="option_buttons">
                 <div><img src="icon-video.svg" alt=""></div>
                 <div><img src="icon-apps.svg" alt=""></div>
                 <div><img src="icon-notification.svg" alt=""></div>
-                <div id="profile" style="border-radius: 50px; background-color: hotpink; height: 30px ; width: 30px;"></div>
+                <div id="profile" style="border-radius: 50px; background-color: hotpink; height: 30px ; width: 30px;">
+                </div>
             </div>
         </header>
-        
-        <div id="content"> 
+
+        <div id="content">
             <div id="video-container">
                 <div id="frame-video">
-                    <iframe id="video"
-                        src="https://www.youtube.com/embed/ZnuwB35GYMY" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
+                    <iframe id="video" src="https://www.youtube.com/embed/ZnuwB35GYMY" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                 </div>
                 <div id="title-video-container">
@@ -59,41 +59,45 @@
                                 <span class="text_autoplay">15</span>
                             </div>
                             <div class="opt-vid-social">
-                            <i class="fas fa-share"></i>
-                            <span class="text_autoplay">SHARE</span class="text_autoplay">
+                                <i class="fas fa-share"></i>
+                                <span class="text_autoplay">SHARE</span class="text_autoplay">
                             </div>
                             <div class="opt-vid-social">
                                 <i class="fas fa-list"></i>
                                 <span class="text_autoplay">SAVE</span></span>
                             </div>
-                                <i class="fas fa-ellipsis-h"></i>
+                            <i class="fas fa-ellipsis-h"></i>
                         </div>
                     </div>
                 </div>
-                
+
                 <div id="channel-details" class="separador">
-                    
+
                     <div id="header_container">
                         <div id="profile_image">
-                            <img class="circle-img" alt="" src="https://yt3.ggpht.com/a/AGF-l79PHE32UB5d2fnmwsiJXu3vv_fnC_SNO899VQ=s48-c-k-c0xffffffff-no-rj-mo" width="48">
+                            <img class="circle-img" alt=""
+                                src="https://yt3.ggpht.com/a/AGF-l79PHE32UB5d2fnmwsiJXu3vv_fnC_SNO899VQ=s48-c-k-c0xffffffff-no-rj-mo"
+                                width="48">
                             <div id="channel-about">
                                 <span class="title_mini">The Odin Project</span>
-                                <span class="text_mini">906 subscribers</span>  
+                                <span class="text_mini">906 subscribers</span>
                             </div>
                         </div>
                         <div class="button">
-                            <input id="btn-subscribe" type="button" text="SUBSCRIBE" value="SUBSCRIBE"/>
+                            <input id="btn-subscribe" type="button" text="SUBSCRIBE" value="SUBSCRIBE" />
                         </div>
                     </div>
                     <div id="channel-description">
                         <span>
-                            How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of 
+                            How do you contribute to open source? In this video, I'll describe the easiest way to make a
+                            simple contribution to an open source project -- without using the command line, a text
+                            editor, "forking a repo", or even touching Git outside of
                         </span>
                     </div>
                 </div>
-               
+
             </div>
-            
+
             <aside>
                 <div id="suggestions-videos">
                     <div id="header_aside">
@@ -103,11 +107,9 @@
                             <i class="fas fa-toggle-on fa-2x"></i>
                         </div>
                     </div>
-                    <!-- <div class="clear"></div> -->
                     <div class="video_mini">
                         <div class="img_mini">
-                        <img
-                        class="thumbnail">
+                            <img class="thumbnail">
                         </div>
                         <div class="resume_mini">
                             <p class="title_mini">
@@ -123,339 +125,251 @@
                     </div>
                     <div class="separador">
                         <div class="line">
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
                         </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
-                        </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
-                        </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
-                        </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
-                        </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
-                        </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
-                        </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
-                        </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
-                        </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
-                        </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
-                        </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
-                        </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
-                        </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
-                        </div>
-                    </div>
-                    <div class="video_mini">
-                        <div class="img_mini">
-                        <img
-                        class="thumbnail">
-                        </div>
-                        <div class="resume_mini">
-                            <p class="title_mini">
-                                Some video mini
-                            </p>
-                            <p class="author_mini text_mini">
-                                Unknown author
-                            </p>
-                            <p class="views_mini text_mini">
-                                8000 views
-                            </p>
+                        <div class="video_mini">
+                            <div class="img_mini">
+                                <img class="thumbnail">
+                            </div>
+                            <div class="resume_mini">
+                                <p class="title_mini">
+                                    Some video mini
+                                </p>
+                                <p class="author_mini text_mini">
+                                    Unknown author
+                                </p>
+                                <p class="views_mini text_mini">
+                                    8000 views
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-              <!--  
-                <div class="clear"></div>
-                <div class="video_mini">
-                    <div class="img_mini">
-                       <img
-                       class="thumbnail">
-                    </div>
-                    <div class="resume_mini">
-                        <p class="title_mini">
-                            Some video mini
-                        </p>
-                        <p class="author_mini text_mini">
-                            Unknown author
-                        </p>
-                        <p class="views_mini text_mini">
-                            8000 views
-                        </p>
-                    </div>
-                </div>
-                <div class="separador">
-                    <div class="line">
-                </div>
-                <div class="video_mini">
-                    <div class="img_mini">
-                       <img
-                       class="thumbnail">
-                    </div>
-                    <div class="resume_mini">
-                        <p class="title_mini">
-                            Some video mini
-                        </p>
-                        <p class="author_mini text_mini">
-                            Unknown author
-                        </p>
-                        <p class="views_mini text_mini">
-                            8000 views
-                        </p>
-                    </div>
-                </div>
-                <div class="video_mini">
-                    <div class="img_mini">
-                       <img
-                       class="thumbnail">
-                    </div>
-                    <div class="resume_mini">
-                        <p class="title_mini">
-                            Some video mini
-                        </p>
-                        <p class="author_mini text_mini">
-                            Unknown author
-                        </p>
-                        <p class="views_mini text_mini">
-                            8000 views
-                        </p>
-                    </div>
-                </div>
-                <div class="video_mini">
-                    <div class="img_mini">
-                       <img
-                       class="thumbnail">
-                    </div>
-                    <div class="resume_mini">
-                        <p class="title_mini">
-                            Some video mini
-                        </p>
-                        <p class="author_mini text_mini">
-                            Unknown author
-                        </p>
-                        <p class="views_mini text_mini">
-                            8000 views
-                        </p>
-                    </div>
-                </div>-->
             </aside>
 
-            <div id="comments-container" > 
+            <div id="comments-container">
                 <div id="comments-left" class="separador">
                     <div id="comments-counter">
                         <div id="count-comments" class="title_section">
@@ -465,26 +379,27 @@
                             <i class="fas fa-stream"></i>
                             <span class="text_autoplay text-comment-option">SORT BY</span>
                         </div>
-                    </div> 
+                    </div>
                     <div id="comments-input">
                         <div class="author_thumbnail">
-                            <img class="circle-img" alt="" 
-                            src="https://s.ytimg.com/yts/img/avatar_48-vfllY0UTT.png" width="48">
+                            <img class="circle-img" alt="" src="https://s.ytimg.com/yts/img/avatar_48-vfllY0UTT.png"
+                                width="48">
                         </div>
                         <div class="input-comment-container">
                             <input class="input-comment" type="text" placeholder="Add a public comment...">
                         </div>
-                    </div> 
+                    </div>
                     <div id="comments-details">
                         <div class="comment-box">
                             <div class="author_thumbnail">
-                                <img class="circle-img" alt="" 
-                                src="https://yt3.ggpht.com/a/AGF-l783j1fWAFl6Woi9_hUK69gYDUE0LNPvLfnpVw=s48-c-k-c0xffffffff-no-rj-mo" width="48">
+                                <img class="circle-img" alt=""
+                                    src="https://yt3.ggpht.com/a/AGF-l783j1fWAFl6Woi9_hUK69gYDUE0LNPvLfnpVw=s48-c-k-c0xffffffff-no-rj-mo"
+                                    width="48">
                             </div>
                             <div class="main-container-comment">
                                 <div class="header">
                                     <span class="title_mini">Reviewer number one</span>
-                                    <span class="text_mini">2 days ago</span>  
+                                    <span class="text_mini">2 days ago</span>
                                 </div>
                                 <div class="text-render-comment">
                                     <span>
@@ -506,13 +421,14 @@
                         </div>
                         <div class="comment-box">
                             <div class="author_thumbnail">
-                                <img class="circle-img" alt="" 
-                                src="https://yt3.ggpht.com/a/AGF-l7_c7MYO-fFXPwOx_5MZmklernP9g_aUFOVavQ=s48-c-k-c0xffffffff-no-rj-mo" width="48">
+                                <img class="circle-img" alt=""
+                                    src="https://yt3.ggpht.com/a/AGF-l7_c7MYO-fFXPwOx_5MZmklernP9g_aUFOVavQ=s48-c-k-c0xffffffff-no-rj-mo"
+                                    width="48">
                             </div>
                             <div class="main-container-comment">
                                 <div class="header">
                                     <span class="title_mini">Reviewer number two</span>
-                                    <span class="text_mini">1 hour ago</span>  
+                                    <span class="text_mini">1 hour ago</span>
                                 </div>
                                 <div class="text-render-comment">
                                     <span>
@@ -532,17 +448,18 @@
                                 </div>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
 
         </div>
 
-            
-        </div>
-        
+
     </div>
 
- 
+    </div>
+
+
 </body>
+
 </html>
