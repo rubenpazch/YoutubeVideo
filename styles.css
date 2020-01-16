@@ -19,7 +19,7 @@
             display: flex;
             align-items: center;
             padding-bottom: 25px;
-            padding-top: 5px;
+            padding-top: 10px;
         }
         
         header > nav{        
@@ -59,7 +59,7 @@
         #option_buttons{
             display: flex;
             flex-direction: row;
-            justify-content: end;
+            justify-content: flex-end;
             align-items: center;
         }
         #option_buttons img{
@@ -160,7 +160,8 @@
         }
 
         #video-container > #title-video-container{
-            background-color: rgb(5, 55, 119);                        
+            /*background-color: rgb(5, 55, 119);                        */
+            padding: 0px 20px 20px 60px;
         }
 
         #video{
@@ -169,11 +170,12 @@
         }
 
         #channel-details{
-            background-color: olivedrab;
+            /*background-color: olivedrab;*/
+            padding: 0px 20px 20px 60px;
         }
 
         #channel-about{
-            background-color:yellow;
+            /*background-color:yellow;*/
             display:flex;
             flex-direction: column;
             justify-content: space-around;
@@ -201,7 +203,7 @@
 
         aside > #suggestions-videos{
            /* background-color: rgba(41, 172, 48, 0.795);*/
-            width: 65%;
+            width: 75%;
         }
 
         
@@ -284,6 +286,7 @@
         #profile_image{
             display: flex;
             flex-direction: row;
+            align-items: center;
         }
 
         .comment-box{
@@ -310,9 +313,50 @@
             flex-direction: row;
             justify-content: space-between;
         }
-        #header_aside{
-            background-color: aqua;
+
+        #header_container{
+            margin: 12px 0px;
+            flex-flow: row;
+            display: flex;
+            align-items: center;
         }
+
+        #video-options{
+            
+            flex-flow: row;
+            display: flex;
+            flex: 3 1 65%;
+            justify-content: flex-end;
+        }
+        #resume{
+            font-size: 14px;
+            font-weight: bold;
+            flex: 1 1 35%;
+        }
+        
+        #header_aside{
+            /*background-color: aqua;            */
+            padding: 1px;
+        }
+        
+        .title_section_autoplay{
+            font-size: 16px;
+            font-weight: bold;
+            padding: 7px 4px;
+            margin: 0px 4px;
+            float: left;
+        }
+        .text_mini_autoplay{
+            color:grey;
+            font-size: 12px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .text_mini_autoplay i{            
+            padding-left: 10px;
+        }
+
         .title_section{
             font-size: 16px;
             font-weight: bold;
@@ -323,12 +367,11 @@
         .text_mini{
             color:grey;
             font-size: 12px;
+            padding-top: 2px;
         }
 
         
-        #header_container{
-            margin: 12px 0px;
-        }
+       
        
         .space_after{
             padding-bottom: 12px;
@@ -360,8 +403,8 @@
 
         .thumbnail{
             background-image:url('https://www.techadvicebro.in/wp-content/uploads/2019/06/Best-free-thumbnail-maker-online.png');
-            width:200px;
-            height: 120px;
+            width:100%;
+            height: 100%;
             background-size: cover;
         }
         /*thumbnail-nav{
@@ -386,6 +429,7 @@
             color: #9e9898;
             font-size: 12px;
             font-weight: 800;
+            margin-left: 13px;
         }
 
         .title_mini{
@@ -409,16 +453,13 @@
            border-radius:50%;
        }
 
-       #video-options{
-            flex-flow: row;
-            display: flex;
-    }
-    #resume{
-        font-size: 14px;
-        font-weight: bold;
-    }
+  
     .opt-vid-social{
-        padding-right: 10px;
+        
+        flex-flow: row;
+        display: flex;
+        align-items: center;
+        padding-right: 25px;
     }
 
 
