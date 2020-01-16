@@ -2,16 +2,15 @@
 
 # Embedding Images and Video
 
-> This project tries to make a clone from youtube layouts using  flexbox.
+> This project tries to make a clone from youtube layouts using flexbox.
 
-![screenshot](./screem-site.png)
-
-Additional description about the project and its features.
+![screenshot](./img/screem-site.png)
 
 ## Built With
 
 - CSS and HTML
-- Flexbox
+- Flexbox}
+- Media queries
 
 ## Live Demo
 
@@ -26,11 +25,11 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **Author1**
+👤 **Xóchitl Selene Flores Pérez**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@enelesmai](https://github.com/enelesmai)
+- Twitter: [@enelesmai](https://twitter.com/enelesmai)
+- Linkedin: [xochitlselene](https://linkedin.com/in/xochitlselene)
 
 👤 **Ruben Paz Chuspe**
 
@@ -41,7 +40,7 @@ Additional description about the project and its features.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the (https://github.com/rubenpazch/gitFlow/issues).
+Feel free to check the (https://github.com/rubenpazch/youtubevideo/issues).
 
 ## Show your support
 

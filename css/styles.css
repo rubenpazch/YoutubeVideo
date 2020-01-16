@@ -68,7 +68,10 @@
         }
         
         #profile {
-            border-radius: 30px;
+            border-radius: 50px;
+            background-color: hotpink;
+            height: 30px;
+            width: 30px;
         }
         
         #search_container {
@@ -132,7 +135,6 @@
         
         #video-container>#frame-video {
             padding: 0px 20px 20px 60px;
-            
         }
         
         #frame-video embed {
@@ -141,7 +143,6 @@
             left: 0;
             width: 100%;
             height: 100%;
-            
         }
         
         #video-container>#title-video-container {
@@ -151,7 +152,6 @@
         #video {
             width: 100%;
             height: 640px;
-            
         }
         
         #channel-details {
@@ -171,7 +171,6 @@
         }
         
         aside {
-            background-color: coral;
             width: 31%;
             height: 0px;
         }
