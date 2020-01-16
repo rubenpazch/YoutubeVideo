@@ -171,7 +171,7 @@
 
         #channel-details{
             /*background-color: olivedrab;*/
-            padding: 0px 20px 20px 60px;
+            margin: 0px 20px 20px 60px;
         }
 
         #channel-about{
@@ -211,7 +211,7 @@
         #comments-container{
           /*  display: flex;
             flex-flow: row;*/
-            background-color: yellow;
+            /*background-color: yellow;*/
             width: 69%;
             height: 500px;
             /*padding: 0px 32px;*/
@@ -219,7 +219,7 @@
         }
         
         #comments-container > #comments-left{
-            background-color: royalblue;
+            /*background-color: royalblue;*/
             height: 400px;
             flex: 1 1 100%; 
         }
@@ -227,28 +227,27 @@
         #comments-left{
             display: flex;
             flex-flow: column;
+            margin: 0px 20px 0px 60px;
             /*align-items: flex-end;*/    
         }
 
         #comments-left > #comments-counter{
             height: 150px;
             width: 100%;
-            background-color: violet;
         }    
         #comments-left > #comments-input{
             height: 150px;
             width: 100%;
-            background-color: goldenrod;
         }    
         #comments-left > #comments-details{
             height: 750px;
             width: 100%;
-            background-color: purple;
         }    
 
         #comments-counter{
             display: flex;
             flex-flow: row;
+            align-items: center;
         }
 
         #count-comments{
@@ -304,6 +303,15 @@
             font-size: 16px;
             padding-top:12px;
             padding-bottom: 12px;
+        }
+
+        .action-buttons{
+            display: flex;
+            flex-flow: row;
+        }
+
+        .opt-thumbs{
+            padding-right: 6px;
         }
 
         
@@ -432,12 +440,22 @@
             margin-left: 13px;
         }
 
+        .text-comment-option{
+            font-size: 14px;
+            margin-left: 4px;
+        }
+
         .title_mini{
             font-size: 14px;
             font-weight: bold;
             display: inline;
         }
        
+        .resume_mini > .title_mini{
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
         
 
         .separador{
@@ -445,6 +463,7 @@
             padding-bottom: 12px;
             margin-bottom: 12px;
         }
+
         .line{
             border-width: 0.5em;
         }
@@ -460,6 +479,15 @@
         display: flex;
         align-items: center;
         padding-right: 25px;
+    }
+
+    .author_mini{
+        margin-bottom: 0px;
+    }
+
+
+    .views_mini{
+        margin-top: 0px;
     }
 
 
@@ -484,6 +512,15 @@
 
             #description-video{
                 width: 100%;
+            }
+
+            aside{
+                margin: 0px 20px 0px 60px;
+            }
+
+            .img_mini{
+                max-width: 168px;
+                max-height: 94px;
             }
 
             /*#frame-video{                
