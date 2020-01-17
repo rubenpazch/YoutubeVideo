@@ -4,13 +4,14 @@
 
 > This project tries to make a clone from youtube layouts using flexbox.
 
-![screenshot](./img/screem-site.png)
+![screenshot](./img/print-you-tube-project.png)
 
 ## Built With
 
 - CSS and HTML
 - Flexbox}
 - Media queries
+- fontawesome
 
 ## Live Demo
 
