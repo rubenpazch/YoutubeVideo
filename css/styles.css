@@ -116,7 +116,7 @@ header>#option_buttons {
   background-image: url(../img/trump.png);
   background-repeat: no-repeat;
   background-size: 34px;
-  background-position: 100px 0px 0px 15px;
+  background-position: 100px 0 0 15px;
   background-position-x: center;
   background-position-y: center;
 }
