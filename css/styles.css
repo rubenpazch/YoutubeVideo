@@ -18,7 +18,7 @@ header {
   padding-top: 10px;
 }
 
-header>nav {
+header> nav {
   width: 40px;
   height: 40px;
   flex: 1 1 2%;
@@ -28,7 +28,7 @@ header nav img {
   padding: 10px;
 }
 
-header>#logo {
+header> #logo {
   width: 40px;
   height: 40px;
   flex: 1 1 28%;
@@ -38,11 +38,11 @@ header #logo img {
   padding: 9px;
 }
 
-header>#search_container {
+header> #search_container {
   flex: 1 1 35%;
 }
 
-header>#option_buttons {
+header> #option_buttons {
   width: 40px;
   height: 40px;
   flex: 1 1 35%;
@@ -63,7 +63,7 @@ header>#option_buttons {
   width: 25px;
 }
 
-#option_buttons>div {
+#option_buttons> div {
   margin-right: 1em;
 }
 
@@ -81,7 +81,7 @@ header>#option_buttons {
   justify-content: space-between;
 }
 
-#search_container>input {
+#search_container> input {
   flex: 1 1 90%;
   width: 35em;
   border: alicebluenone;
@@ -97,7 +97,7 @@ header>#option_buttons {
   line-height: 25px;
 }
 
-#search_container>img {
+#search_container> img {
   flex: 1 1 10%;
   height: 2em;
   cursor: pointer;
@@ -134,7 +134,7 @@ header>#option_buttons {
   height: auto;
 }
 
-#video-container>#frame-video {
+#video-container> #frame-video {
   padding: 0 20px 20px 60px;
 }
 
@@ -146,7 +146,7 @@ header>#option_buttons {
   height: 100%;
 }
 
-#video-container>#title-video-container {
+#video-container> #title-video-container {
   padding: 0 20px 20px 60px;
 }
 
@@ -176,7 +176,7 @@ aside {
   height: 0;
 }
 
-aside>#suggestions-videos {
+aside> #suggestions-videos {
   width: 75%;
 }
 
@@ -185,7 +185,7 @@ aside>#suggestions-videos {
   height: 500px;
 }
 
-#comments-container>#comments-left {
+#comments-container> #comments-left {
   height: 400px;
   flex: 1 1 100%;
 }
@@ -196,17 +196,17 @@ aside>#suggestions-videos {
   margin: 0 20px   0 60px;
 }
 
-#comments-left>#comments-counter {
+#comments-left> #comments-counter {
   height: 150px;
   width: 100%;
 }
 
-#comments-left>#comments-input {
+#comments-left> #comments-input {
   height: 150px;
   width: 100%;
 }
 
-#comments-left>#comments-details {
+#comments-left> #comments-details {
   height: 750px;
   width: 100%;
 }
@@ -371,11 +371,11 @@ aside>#suggestions-videos {
   padding: 7px;
 }
 
-.video_mini>.img_mini {
+.video_mini> .img_mini {
   flex: 1 1 45%;
 }
 
-.video_mini>.resume_mini {
+.video_mini> .resume_mini {
   flex: 1 1 55%;
   padding-left: 5px;
 }
@@ -416,7 +416,7 @@ aside>#suggestions-videos {
   display: inline;
 }
 
-.resume_mini>.title_mini {
+.resume_mini> .title_mini {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 6px;
@@ -461,16 +461,14 @@ aside>#suggestions-videos {
   aside {
     height: auto;
     width: 100%;
+    margin: 0 20px   0 60px;
   }
   #comments-container {
     width: 100%;
   }
   #description-video {
     width: 100%;
-  }
-  aside {
-    margin: 0 20px   0 60px;
-  }
+  }  
   .img_mini {
     max-width: 168px;
     max-height: 94px;
