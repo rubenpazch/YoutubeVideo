@@ -34,20 +34,25 @@ footer, header, hgroup, main, menu, nav, section {
 *[hidden] {
   display: none;
 }
+
 body {
   line-height: 1;
 }
+
 menu, ol, ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
