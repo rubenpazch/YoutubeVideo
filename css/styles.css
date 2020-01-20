@@ -135,7 +135,7 @@ header>#option_buttons {
 }
 
 #video-container>#frame-video {
-  padding: 0px 20px 20px 60px;
+  padding:   0 20px 20px 60px;
 }
 
 #frame-video embed {
@@ -147,7 +147,7 @@ header>#option_buttons {
 }
 
 #video-container>#title-video-container {
-  padding: 0px 20px 20px 60px;
+  padding:   0 20px 20px 60px;
 }
 
 #video {
@@ -156,7 +156,7 @@ header>#option_buttons {
 }
 
 #channel-details {
-  margin: 0px 20px 20px 60px;
+  margin:   0 20px 20px 60px;
 }
 
 #channel-about {
@@ -173,7 +173,7 @@ header>#option_buttons {
 
 aside {
   width: 31%;
-  height: 0px;
+  height:   0;
 }
 
 aside>#suggestions-videos {
@@ -193,7 +193,7 @@ aside>#suggestions-videos {
 #comments-left {
   display: flex;
   flex-flow: column;
-  margin: 0px 20px 0px 60px;
+  margin:   0 20px   0 60px;
 }
 
 #comments-left>#comments-counter {
@@ -240,8 +240,8 @@ aside>#suggestions-videos {
 .input-comment {
   border: none;
   border-bottom: 1px solid rgba(125, 125, 129, 0.5);
-  padding: 8px 0px;
-  top: 0px;
+  padding: 8px   0;
+  top:   0;
   width: 100%;
 }
 
@@ -261,7 +261,7 @@ aside>#suggestions-videos {
 .comment-box {
   display: flex;
   flex-flow: row;
-  padding: 12px 0px;
+  padding: 12px   0;
 }
 
 .main-container-comment {
@@ -293,7 +293,7 @@ aside>#suggestions-videos {
 }
 
 #header_container {
-  margin: 12px 0px;
+  margin: 12px   0;
   flex-flow: row;
   display: flex;
   align-items: center;
@@ -320,7 +320,7 @@ aside>#suggestions-videos {
   font-size: 16px;
   font-weight: bold;
   padding: 7px 4px;
-  margin: 0px 4px;
+  margin:   0 4px;
   float: left;
 }
 
@@ -340,7 +340,7 @@ aside>#suggestions-videos {
   font-size: 16px;
   font-weight: bold;
   padding: 7px 4px;
-  margin: 0px 4px;
+  margin:   0 4px;
   float: left;
 }
 
@@ -444,11 +444,11 @@ aside>#suggestions-videos {
 }
 
 .author_mini {
-  margin-bottom: 0px;
+  margin-bottom:   0;
 }
 
 .views_mini {
-  margin-top: 0px;
+  margin-top:   0;
 }
 
 @media all and (max-width:1015px) {
@@ -469,7 +469,7 @@ aside>#suggestions-videos {
     width: 100%;
   }
   aside {
-    margin: 0px 20px 0px 60px;
+    margin:   0 20px   0 60px;
   }
   .img_mini {
     max-width: 168px;
