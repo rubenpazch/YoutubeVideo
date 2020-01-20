@@ -445,4 +445,11 @@ aside {
     max-width: 168px;
     max-height: 94px;
   }
+  #option_buttons{
+    margin: 0px -55px 0px 0px;
+  }
+  #search_container{
+    width: 400px;
+  }
+  
 }
