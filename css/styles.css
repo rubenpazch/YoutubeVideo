@@ -31,7 +31,7 @@ header nav img {
 #logo {
   width: 40px;
   height: 40px;
-  flex: 1 1 28%;
+  flex: 1 1 28%;  
 }
 
 #logo img {
@@ -40,6 +40,10 @@ header nav img {
 
 #search_container {
   flex: 1 1 35%;
+  flex-flow: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #option_buttons {
@@ -52,9 +56,6 @@ header nav img {
   align-items: center;
 }
 
-#logo {
-  display: inline;
-}
 
 #option_buttons img {
   width: 25px;
@@ -65,18 +66,17 @@ header nav img {
 }
 
 #profile {
+  background-image: url(../img/trump.png);
+  background-repeat: no-repeat;
+  background-size: 34px;
+  background-position: 100px 0 0 15px;
+  background-position-x: center;
+  background-position-y: center;
   border-radius: 50px;
-  background-color: hotpink;
   height: 30px;
   width: 30px;
 }
 
-#search_container {
-  flex-flow: row;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
 #search_container > input {
   flex: 1 1 90%;
@@ -107,14 +107,7 @@ header nav img {
   background-color: rgb(248, 248, 248);
 }
 
-#profile {
-  background-image: url(../img/trump.png);
-  background-repeat: no-repeat;
-  background-size: 34px;
-  background-position: 100px 0 0 15px;
-  background-position-x: center;
-  background-position-y: center;
-}
+
 
 /*  end header style */
 
@@ -184,9 +177,6 @@ aside {
 #comments-left {
   height: 400px;
   flex: 1 1 100%;
-}
-
-#comments-left {
   display: flex;
   flex-flow: column;
   margin: 0 20px   0 60px;
@@ -195,22 +185,21 @@ aside {
 #comments-counter {
   height: 150px;
   width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
 }
 
 #comments-input {
   height: 150px;
   width: 100%;
+  display: flex;
+  flex-flow: row;
 }
 
 #comments-details {
   height: 750px;
   width: 100%;
-}
-
-#comments-counter {
-  display: flex;
-  flex-flow: row;
-  align-items: center;
 }
 
 #count-comments {
@@ -223,10 +212,6 @@ aside {
   padding-left: 32px;
 }
 
-#comments-input {
-  display: flex;
-  flex-flow: row;
-}
 
 .input-comment-container {
   width: 100%;
