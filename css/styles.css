@@ -132,9 +132,10 @@ header> #option_buttons {
 #video-container {
   width: 69%;
   height: auto;
+  
 }
 
-#video-container> #frame-video {
+#frame-video {
   padding: 0 20px 20px 60px;
 }
 
@@ -146,7 +147,7 @@ header> #option_buttons {
   height: 100%;
 }
 
-#video-container> #title-video-container {
+#title-video-container {
   padding: 0 20px 20px 60px;
 }
 
@@ -176,7 +177,7 @@ aside {
   height: 0;
 }
 
-aside> #suggestions-videos {
+#suggestions-videos {
   width: 75%;
 }
 
@@ -185,7 +186,7 @@ aside> #suggestions-videos {
   height: 500px;
 }
 
-#comments-container> #comments-left {
+#comments-left {
   height: 400px;
   flex: 1 1 100%;
 }
@@ -196,17 +197,17 @@ aside> #suggestions-videos {
   margin: 0 20px   0 60px;
 }
 
-#comments-left> #comments-counter {
+#comments-counter {
   height: 150px;
   width: 100%;
 }
 
-#comments-left> #comments-input {
+#comments-input {
   height: 150px;
   width: 100%;
 }
 
-#comments-left> #comments-details {
+#comments-details {
   height: 750px;
   width: 100%;
 }
