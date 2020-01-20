@@ -18,7 +18,7 @@ header {
   padding-top: 10px;
 }
 
-header> nav {
+header > nav {
   width: 40px;
   height: 40px;
   flex: 1 1 2%;
@@ -28,42 +28,39 @@ header nav img {
   padding: 10px;
 }
 
-header> #logo {
+#logo {
   width: 40px;
   height: 40px;
   flex: 1 1 28%;
 }
 
-header #logo img {
+#logo img {
   padding: 9px;
 }
 
-header> #search_container {
+#search_container {
   flex: 1 1 35%;
-}
-
-header> #option_buttons {
-  width: 40px;
-  height: 40px;
-  flex: 1 1 35%;
-}
-
-#logo {
-  display: inline;
 }
 
 #option_buttons {
+  width: 40px;
+  height: 40px;
+  flex: 1 1 35%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
 }
 
+#logo {
+  display: inline;
+}
+
 #option_buttons img {
   width: 25px;
 }
 
-#option_buttons> div {
+#option_buttons > div {
   margin-right: 1em;
 }
 
@@ -81,12 +78,11 @@ header> #option_buttons {
   justify-content: space-between;
 }
 
-#search_container> input {
+#search_container > input {
   flex: 1 1 90%;
   width: 35em;
   border: alicebluenone;
   border: 1px 1px 1px 1px solid rgba(0, 0, 0, 0.233);
-  text-indent: 0.5em;
   border-left: 1px solid rgba(0, 0, 0, 0.233);
   border-top: 1px solid rgba(0, 0, 0, 0.233);
   border-bottom: 1px solid rgba(0, 0, 0, 0.233);
@@ -97,9 +93,8 @@ header> #option_buttons {
   line-height: 25px;
 }
 
-#search_container> img {
+#search_container > img {
   flex: 1 1 10%;
-  height: 2em;
   cursor: pointer;
   width: 10px;
   height: 27px;
@@ -372,11 +367,11 @@ aside {
   padding: 7px;
 }
 
-.video_mini> .img_mini {
+.img_mini {
   flex: 1 1 45%;
 }
 
-.video_mini> .resume_mini {
+.resume_mini {
   flex: 1 1 55%;
   padding-left: 5px;
 }
@@ -395,10 +390,6 @@ aside {
   color: grey;
 }
 
-.resume_mini {
-  padding-left: 3px;
-}
-
 .text_autoplay {
   color: #9e9898;
   font-size: 12px;
@@ -415,12 +406,7 @@ aside {
   font-size: 14px;
   font-weight: bold;
   display: inline;
-}
-
-.resume_mini> .title_mini {
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 6px;
+  margin: 0 0 6px 0;
 }
 
 .separador {
@@ -452,7 +438,7 @@ aside {
   margin-top: 0;
 }
 
-@media all and (max-width:1015px) {
+@media all and (max-width: 1015px) {
   #content {
     flex-flow: column;
   }
