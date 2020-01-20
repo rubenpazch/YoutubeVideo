@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-   v5.0.1 | 20191019
-   License: none (public domain)
+ v5.0.1 | 20191019
+ License: none (public domain)
 */
 
 html,
@@ -89,11 +89,10 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
-
 
 /* HTML5 display-role reset for older browsers */
 
@@ -111,7 +110,6 @@ nav,
 section {
   display: block;
 }
-
 
 /* HTML5 hidden-attribute fix for newer browsers */
 
@@ -134,10 +132,10 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: '';
   content: none;
 }
