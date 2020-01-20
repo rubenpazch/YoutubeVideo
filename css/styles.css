@@ -18,7 +18,7 @@ header {
   padding-top: 10px;
 }
 
-header>nav {
+header > nav {
   width: 40px;
   height: 40px;
   flex: 1 1 2%;
@@ -60,7 +60,7 @@ header nav img {
   width: 25px;
 }
 
-#option_buttons>div {
+#option_buttons > div {
   margin-right: 1em;
 }
 
@@ -76,7 +76,7 @@ header nav img {
   width: 30px;
 }
 
-#search_container>input {
+#search_container > input {
   flex: 1 1 90%;
   width: 35em;
   border: alicebluenone;
@@ -91,7 +91,7 @@ header nav img {
   line-height: 25px;
 }
 
-#search_container>img {
+#search_container > img {
   flex: 1 1 10%;
   cursor: pointer;
   width: 10px;
@@ -421,27 +421,34 @@ aside {
   #content {
     flex-flow: column;
   }
+
   #video-container {
     width: 100%;
   }
+  
   aside {
     height: auto;
     width: 100%;
     margin: 0 20px 0 60px;
   }
+
   #comments-container {
     width: 100%;
   }
+
   #description-video {
     width: 100%;
   }
+
   .img_mini {
     max-width: 168px;
     max-height: 94px;
   }
+
   #option_buttons {
-    margin: 0px -55px 0px 0px;
+    margin: 0 -55 0 0;
   }
+
   #search_container {
     width: 400px;
   }
