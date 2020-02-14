@@ -27,6 +27,7 @@ This is one of the first projects I work on like part of Microverse program, the
  + It shows the title of the video.
  + It shows the number of views.
 
+## Screenshot
 ![screenshot](./img/print-you-tube-project.png)
 
 ## Built With
