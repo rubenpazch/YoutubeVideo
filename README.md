@@ -2,10 +2,6 @@
 
 This is one of the first projects I work on like part of Microverse program, the purpose of this project is about making a copy of youtube site, for this project it was required to use HTML and CSS, this is just a static mockup.
 
-# Embedding Images and Video
-
-> This project tries to make a clone from youtube layouts using flexbox.
-
 #  Milestone of the project 
 
 ## Navigation bar
