@@ -1,5 +1,7 @@
 # YoutubeVideo
 
+This is one of the first project I work on like part of Microverse program, the puropose of this project is abotu making a basic copy of youtube site, 
+
 # Embedding Images and Video
 
 > This project tries to make a clone from youtube layouts using flexbox.
@@ -15,7 +17,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://embedding-images-and-video-rs.000webhostapp.com/)
+[Live Demo Link](https://wizardly-raman-7eed13.netlify.com)
 
 
 ## Getting Started
